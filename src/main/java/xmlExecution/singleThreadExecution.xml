@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="methods" thread-count="1" data-provider-thread-count="1">
+    <test verbose="2" preserve-order="true" thread-count="1"
+          name="/src/test/java/parallel/RunUI">
+        <classes>
+            <class name="parallel.RunTests"/>
+        </classes>
+    </test>
+    
+</suite>
